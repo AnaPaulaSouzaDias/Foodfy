@@ -21,9 +21,13 @@ section{
     margin-right: 30px;
     text-decoration: none;
   } 
-  header{
-    margin-top: 20px;
+  .links a:hover{
+    color:rgb(233, 135, 135);
+    transition: color 200ms;
   }
+header{
+    margin-top: 20px 0px 60px;
+}
 
 body{
   background: rgb(251, 250, 250);
@@ -32,8 +36,16 @@ body{
 }
 .inicio{
   background: #FBDFDB;
-  border-radius: 30px;
   border-radius: 30px;   
+  margin: 100px 600px 50px 195px;
+  width: 940px;
+  height: 366px;
+  padding: 40px 40px 40px 40px;
+  display:flex;
+}
+.home{
+  margin: 100px  150px 100px 0px;
+  font-size: 25px;
 }
 #wrapper{
   margin-left: 198px;
@@ -126,8 +138,8 @@ iframe{
 }
 .footer{
   padding:10px;
-  background: hsla(0, 77%, 71%, 0.773);;
-  width: 1500px;
+  background: #ee7e7ec5;;
+  width: 1400px;
   color: rgb(19, 18, 18);
   text-align: center;
   opacity: 80%;
