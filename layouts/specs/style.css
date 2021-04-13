@@ -21,9 +21,10 @@ section{
     margin-right: 30px;
     text-decoration: none;
   } 
-  .links a:hover{
+.links a:hover{
     color:rgb(233, 135, 135);
     transition: color 200ms;
+    font-weight: bold;
   }
 header{
     margin-top: 20px 0px 60px;
@@ -46,6 +47,9 @@ body{
 .home{
   margin: 100px  150px 100px 0px;
   font-size: 25px;
+}
+.nome{
+  font-size: 20px;
 }
 #wrapper{
   margin-left: 198px;
@@ -93,13 +97,16 @@ body{
 .card_image-container img{
   width: 100%;
 }
+.card_content{
+  font-size: 25px;
+  font-weight: bold;
+}
 .card_content,
 .card_info {
-  padding:24px
+  padding:15px
 }
 .card_info{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
+  color: #777777;
 }
 .modal-overlay{
   background-color: rgba(0,0,0,0.07);
@@ -136,11 +143,18 @@ iframe{
   position: absolute;
   top:5%;
 }
+.total{
+  width: 100%;
+      height: 90%;
+      position: absolute;
+      top:5%;
+  }
 .footer{
   padding:10px;
-  background: #ee7e7ec5;;
-  width: 1400px;
+  background: hsla(0, 77%, 71%, 0.773);;
+  width: 100%;
   color: rgb(19, 18, 18);
   text-align: center;
   opacity: 80%;
+  position:absolute;
 }

@@ -118,17 +118,20 @@ body{
   opacity:1;
   visibility: visible;
 }
-iframe{
-  width: 100%;
-  height: 90%;
-  position: absolute;
-  top:5%;
+.total{
+width: 100%;
+    height: 90%;
+    position: absolute;
+    top:5%;
 }
 .footer{
   padding:10px;
   background: hsla(0, 77%, 71%, 0.773);;
-  width: 1500px;
+  width: 100%;
   color: rgb(19, 18, 18);
   text-align: center;
   opacity: 80%;
+  top:95%;
+  position:absolute;
+  bottom:0;
 }

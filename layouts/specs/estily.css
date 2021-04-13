@@ -40,11 +40,16 @@ p{
   margin: 20px 200px 20px 200px;
   font-family:cursive;
 }
+
+
 .footer{
   padding:10px;
-  background: #ee7e7ec5;;
-  width: 1500px;
+  background: hsla(0, 77%, 71%, 0.773);;
+  width: 100%;
   color: rgb(19, 18, 18);
   text-align: center;
   opacity: 80%;
+  top:95%;
+  position:absolute;
+  bottom:0;
 }
